@@ -94,3 +94,15 @@ function fcheck(){
     function sub(){
         alert("ys");
     }
+    function scheck(){
+        var a=document.getElementById("state").value;
+        var b="Choose."
+        if(a==b)
+        {
+            document.getElementById("f").innerHTML="Please Select your state";
+        }
+        else{
+            document.getElementById("f").innerHTML="";
+        }
+
+    }
